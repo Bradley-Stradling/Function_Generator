@@ -4,7 +4,7 @@ The idea behind this short program was to ease the creation of new functions
 whenever I want to add a new C++ function to a program.
 
 This program takes in type of the function the name of 1 header file, and 
-the desired name of the function and then prints out the screen an 
+the desired name of the function and then prints out to the screen an 
 include statment, prototype declaration, function definition and 
 function call template.
 
