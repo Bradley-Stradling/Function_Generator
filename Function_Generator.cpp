@@ -7,9 +7,11 @@ int main()
 {
 
 	int flag = 1;
+	int flag_2 = 0;
+	string header_Name;
+
 	do {
 		string function_Type;
-		string header_Name;
 		string function_Name;
 
 		cout << "//********************************************************"
@@ -22,8 +24,12 @@ int main()
 		cout << "Enter the type for the function --<< ";
 		cin >> function_Type;
 
-		cout << "Enter the name of the required header --<< ";
-		cin >> header_Name;
+		if (flag_2 == 0)
+		{
+			cout << "Enter the name of the required header --<< ";
+			cin >> header_Name;
+		}
+		flag_2 = 1;
 
 		cout << "Enter the name of the function to be created --<< ";
 		cin >> function_Name;
