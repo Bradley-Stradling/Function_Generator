@@ -23,4 +23,9 @@
     <Text Include="ReadMe.txt" />
     <Text Include="License.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Output.JPG">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

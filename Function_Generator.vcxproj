@@ -157,6 +157,9 @@
     <Text Include="License.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Output.JPG" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
