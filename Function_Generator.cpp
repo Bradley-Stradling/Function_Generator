@@ -40,7 +40,7 @@ int main()
 			<< "();//function protoype" << endl;
 		cout << endl;
 
-		cout << "#include \"" << header_Name << "\"" << endl;
+		cout << "#include \"" << header_Name << ".h\"" << endl;
 		cout << endl;
 
 		cout << "//********************************************************"
